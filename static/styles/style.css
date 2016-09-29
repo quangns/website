@@ -8,9 +8,17 @@
 .formdangnhap {width: 100%; padding: 15px; margin-left: 50%; }
 .formdangnhap input[type=text] {clear: left; border: 1px solid; border-radius: 4px; background-color: #ffffff; height: 25px; width: 150px; padding-right: 10px;}
 .formdangnhap input[type=button] {border-radius: 10px; height:25px; width:100px; }
-.danhmuc{clear: left; border: 1px solid black; background-color: #00FFFF, color: white; height:35px; background: #8989; width:100%; }
+.danhmuc{clear: left; border: 1px solid black; background-color: #00FFFF, color: white; height:30px; background: #8989; width:100%; }
 .danhmuc ul {padding: 0 ; border-radius: 10px}
 .danhmuc li {list-style: none; display: inline-block;}
+.second-level-menu{position: absolute; width: 100px; list-style: none; padding: 0; margin: 0; display: none; }
+.second-level-menu > li{position: relative; height: 30px; background: #999999; width: 100px;}
+.second-level-menu > li:hover { background: #CCCCCC; width: 100px;}
+.top-level-menu > li{ position: relative; float: left; height: 30px; width: 100px; background: #999999;}
+.top-level-menu > li:hover { background: #CCCCCC; }
+.top-level-menu li:hover > ul{ display: inline;}
+.top-level-menu a{font: bold 14px Arial, Helvetica, sans-serif; color: #FFFFFF; text-decoration: none; margin-left: 10px; display: block; line-height: 30px;}
+.top-level-menu a:hover { color: #000000; }
 .khungchinh{width:1000px; background:#ffffff; margin: 0 auto;}
 .left {float: left; width:40%; display: inline-block; display: inline-block; overflow: auto; }
 .sub_left1{clear:left; float: left; margin-left:20px }
@@ -19,12 +27,3 @@
 .middle {width: 298px; height: auto; float: left;}
 .middle li{margin-top: 10px;}
 .right {float: left; border: 1px dotted black; width: 300px; }
-.second-level-menu{position: absolute; width: 100px; list-style: none; padding: 0; margin: 0; display: none; }
-.second-level-menu > li{position: relative; height: 30px; background: #999999; width: 100px;}
-.second-level-menu > li:hover { background: #CCCCCC; width: 100px;}
-.top-level-menu{list-style: none; padding: 0; margin: 0;}
-.top-level-menu > li{ position: relative; float: left; height: 30px; width: 100px; background: #999999;}
-.top-level-menu > li:hover { background: #CCCCCC; }
-.top-level-menu li:hover > ul{ display: inline;}
-.top-level-menu a{font: bold 14px Arial, Helvetica, sans-serif; color: #FFFFFF; text-decoration: none; padding: 0 0 0 10px; display: block;line-height: 30px;}
-.top-level-menu a:hover { color: #000000; }
